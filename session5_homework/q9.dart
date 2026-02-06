@@ -27,13 +27,13 @@ bool isPalindrome(String s) {
 
 bool isAlphaNumeric(String c) {
   int code = c.codeUnitAt(0);
-  return (code >= 48 && code <= 57) ||    // 0-9
-         (code >= 65 && code <= 90) ||    // A-Z
-         (code >= 97 && code <= 122);     // a-z
+  return (code >= 48 && code <= 57) ||    
+         (code >= 65 && code <= 90) ||    
+         (code >= 97 && code <= 122);     
 }
 
 void main() {
-  print(isPalindrome("A man, a plan, a canal: Panama")); // true
-  print(isPalindrome("race a car"));                     // false
-  print(isPalindrome(" "));                              // true
+  print(isPalindrome("A man, a plan, a canal: Panama")); 
+  print(isPalindrome("race a car"));                    
+  print(isPalindrome(" "));                             
 }

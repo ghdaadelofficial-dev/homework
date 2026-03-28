@@ -14,11 +14,13 @@ class MyLayout extends StatelessWidget {
         children: [
           //blue part 
           Container(
+            
             height: 150,
             color: Colors.blue[50],
             margin: EdgeInsets.all(10),
           ),
                Container(
+                     
             height:30,
             color: Colors.grey[300],
             margin: EdgeInsets.all(10),
